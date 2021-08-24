@@ -10,9 +10,15 @@
   width: 100px;
   height: 40px;
   margin: 5px 0;
-  /* padding: 0px 0px; */
 }
 .TipAmount button:hover {
   background-color: hsl(173, 61%, 77%);
   color: hsl(183, 100%, 15%);
+}
+
+@media (max-width: 376px) {
+  .TipAmount button {
+    width: 140px;
+    height: 45px;
+  }
 }

@@ -9,7 +9,6 @@
   font-weight: 400;
   width: 100px;
   height: 40px;
-  /* padding: 0px 0px; */
 }
 .TipCustom button:hover {
   background-color: hsl(173, 61%, 77%);
@@ -46,4 +45,12 @@ input::-webkit-inner-spin-button {
 }
 input[type='number'] {
   -moz-appearance: textfield;
+}
+
+@media (max-width: 376px) {
+  .TipCustom button,
+  .TipCustom input {
+    width: 140px;
+    height: 45px;
+  }
 }

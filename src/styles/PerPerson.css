@@ -1,6 +1,5 @@
 .PerPerson {
   width: 300px;
-  /* background-color: red; */
   display: flex;
   flex-direction: row;
   text-align: left;
@@ -16,19 +15,16 @@
   font-weight: 700;
   color: hsl(0, 0%, 100%);
   margin: 0;
-  /* background-color: magenta; */
 }
 .PerPerson-text {
   color: hsl(185, 41%, 84%);
   font-size: 14px;
   font-weight: 700;
   margin: 0;
-  /* background-color: magenta; */
 }
 .PerPerson-output {
   color: hsl(172, 67%, 45%);
   font-weight: 700;
   font-size: 36px;
   margin: 0;
-  /* background-color: magenta; */
 }
