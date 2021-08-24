@@ -1,0 +1,49 @@
+.TipCustom button {
+  background-color: hsl(189, 41%, 97%);
+  border-radius: 5px;
+  border: none;
+  color: hsl(183, 100%, 15%);
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 400;
+  width: 100px;
+  height: 40px;
+  /* padding: 0px 0px; */
+}
+.TipCustom button:hover {
+  background-color: hsl(173, 61%, 77%);
+  color: hsl(183, 100%, 15%);
+  margin: 5px 0;
+}
+
+.TipCustom input {
+  width: 100px;
+  height: 40px;
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+  border: solid hsl(189, 41%, 97%);
+  border-radius: 5px;
+  background-color: hsl(189, 41%, 97%);
+  color: hsl(183, 100%, 15%);
+
+  padding: 0 15px;
+}
+.TipCustom input:hover {
+  border: solid hsl(172, 67%, 45%);
+  outline: none;
+}
+.TipCustom input::placeholder {
+  color: hsl(184, 14%, 56%);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}

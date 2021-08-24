@@ -1,0 +1,62 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-logo {
+  pointer-events: none;
+  margin: 20px;
+}
+.App-card {
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px 0px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 850px;
+  margin: auto;
+}
+.App-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* background-color: rgb(158, 60, 60); */
+}
+.App-output {
+  background-color: hsl(183, 100%, 15%);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  justify-content: space-evenly;
+  margin: 0px;
+  padding: 0px 0px;
+  border-radius: 20px;
+  width: 400px;
+  height: 400px;
+}
+.attribution {
+  margin-top: 30px;
+}
+
+/* ## Colors
+
+### Primary
+
+- Strong cyan: hsl(172, 67%, 45%)
+
+### Neutral
+
+- Very dark cyan: hsl(183, 100%, 15%)
+- Dark grayish cyan: hsl(186, 14%, 43%)
+- Dark grayish cyan: hsl(184, 14%, 56%)
+- Light grayish cyan: hsl(185, 41%, 84%)
+- Light grayish cyan: hsl(189, 41%, 97%)
+- White: hsl(0, 0%, 100%) 
+*/

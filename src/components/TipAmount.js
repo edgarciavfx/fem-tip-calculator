@@ -1,9 +1,11 @@
+import '../styles/TipAmount.css';
+
 function TipAmount({ amount, handleInput }) {
   const handleClick = () => {
     handleInput(amount);
   };
   return (
-    <div>
+    <div className="TipAmount">
       <button onClick={handleClick}>{amount}%</button>
     </div>
   );

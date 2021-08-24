@@ -4,7 +4,7 @@ import TipInput from './components/TipInput';
 import logo from './images/logo.svg';
 import dollarIcon from './images/icon-dollar.svg';
 import personIcon from './images/icon-person.svg';
-import './App.css';
+import './styles/App.css';
 import PerPerson from './components/PerPerson';
 import ResetButton from './components/ResetButton';
 
@@ -33,23 +33,25 @@ function App() {
   return (
     <div className="App">
       <img src={logo} className="App-logo" alt="logo" />
-      <div>
-        <NumberInput
-          name="Bill"
-          icon={dollarIcon}
-          handleInput={handleInput(setBill)}
-        />
-        <TipInput handleInput={handleInput(setTip)} />
-        <NumberInput
-          name="Number of People"
-          icon={personIcon}
-          handleInput={handleInput(setPeople)}
-        />
-      </div>
-      <div>
-        <PerPerson title="Tip Amount" tip={tipCalc} people={people} />
-        <PerPerson title="Total" tip={totalCalc} people={people} />
-        <ResetButton handleReset={handleReset} isDisabled={isDisabled} />
+      <div className="App-card">
+        <div className="App-input">
+          <NumberInput
+            name="Bill"
+            icon={dollarIcon}
+            handleInput={handleInput(setBill)}
+          />
+          <TipInput handleInput={handleInput(setTip)} />
+          <NumberInput
+            name="Number of People"
+            icon={personIcon}
+            handleInput={handleInput(setPeople)}
+          />
+        </div>
+        <div className="App-output">
+          <PerPerson title="Tip Amount" tip={tipCalc} people={people} />
+          <PerPerson title="Total" tip={totalCalc} people={people} />
+          <ResetButton handleReset={handleReset} isDisabled={isDisabled} />
+        </div>
       </div>
       <div className="attribution">
         Challenge by{' '}
@@ -60,7 +62,15 @@ function App() {
         >
           Frontend Mentor
         </a>
-        . Coded by <a href="https://github.com/edgarciavfx">edgarciavfx</a>.
+        . Coded by{' '}
+        <a
+          href="https://github.com/edgarciavfx"
+          target="_blank"
+          rel="noreferrer"
+        >
+          edgarciavfx
+        </a>
+        .
       </div>
     </div>
   );

@@ -1,0 +1,50 @@
+.NumberInput {
+  display: inline-block;
+  width: 350px;
+  height: 100px;
+}
+.NumberInput h6 {
+  font-size: 14px;
+  margin: 5px;
+  font-weight: 700;
+  color: hsl(183, 100%, 15%);
+  display: block;
+  width: 350px;
+  user-select: none;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.NumberInput img {
+  position: relative;
+  left: 25px;
+  user-select: none;
+}
+
+.NumberInput input {
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+  border: solid hsl(189, 41%, 97%);
+  border-radius: 5px;
+  background-color: hsl(189, 41%, 97%);
+  color: hsl(183, 100%, 15%);
+  padding: 0 15px;
+}
+.NumberInput input:hover {
+  border: solid hsl(172, 67%, 45%);
+  outline: none;
+}
+.NumberInput input::placeholder {
+  color: hsl(184, 14%, 56%);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}

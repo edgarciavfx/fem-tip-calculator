@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import '../styles/TipCustom.css';
 
 function TipCustom({ handleInput }) {
   const [customTip, setCustomTip] = useState();
@@ -16,7 +17,7 @@ function TipCustom({ handleInput }) {
   };
 
   return (
-    <div>
+    <div className="TipCustom">
       <button onClick={handleClick} hidden={!isHidden}>
         Custom
       </button>

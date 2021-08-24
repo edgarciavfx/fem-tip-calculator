@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/NumberInput.css';
 
 export default function NumberInput({ name, icon, handleInput }) {
   const [number, setNumber] = useState();
@@ -9,8 +10,8 @@ export default function NumberInput({ name, icon, handleInput }) {
   };
 
   return (
-    <div>
-      <p>{name}</p>
+    <div className="NumberInput">
+      <h6>{name}</h6>
       <img src={icon} alt={`${name}-icon`} />
       <input
         type="number"

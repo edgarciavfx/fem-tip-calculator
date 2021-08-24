@@ -1,8 +1,9 @@
 import React from 'react';
+import '../styles/ResetButton.css';
 
 function ResetButton({ isDisabled, handleReset }) {
   return (
-    <button onClick={handleReset} disabled={isDisabled}>
+    <button className="ResetButton" onClick={handleReset} disabled={isDisabled}>
       Reset
     </button>
   );

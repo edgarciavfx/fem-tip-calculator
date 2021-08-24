@@ -1,0 +1,23 @@
+.TipInput {
+  width: 350px;
+  /* background-color: rgba(255, 0, 0, 0.521); */
+}
+.TipInput h2 {
+  font-size: 14px;
+  font-weight: 700;
+  color: hsl(183, 100%, 15%);
+  margin-bottom: 5px;
+  width: 350px;
+  user-select: none;
+  text-align: left;
+  padding-left: 20px;
+}
+.TipInput-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  align-content: center;
+  justify-content: space-evenly;
+}
