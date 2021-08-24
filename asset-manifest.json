@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/fem-tip-calculator/static/css/main.8313f5e1.chunk.css",
+    "main.js": "/fem-tip-calculator/static/js/main.0d4a004c.chunk.js",
+    "main.js.map": "/fem-tip-calculator/static/js/main.0d4a004c.chunk.js.map",
+    "runtime-main.js": "/fem-tip-calculator/static/js/runtime-main.7161056f.js",
+    "runtime-main.js.map": "/fem-tip-calculator/static/js/runtime-main.7161056f.js.map",
+    "static/js/2.2761c267.chunk.js": "/fem-tip-calculator/static/js/2.2761c267.chunk.js",
+    "static/js/2.2761c267.chunk.js.map": "/fem-tip-calculator/static/js/2.2761c267.chunk.js.map",
+    "static/js/3.481bd6eb.chunk.js": "/fem-tip-calculator/static/js/3.481bd6eb.chunk.js",
+    "static/js/3.481bd6eb.chunk.js.map": "/fem-tip-calculator/static/js/3.481bd6eb.chunk.js.map",
+    "index.html": "/fem-tip-calculator/index.html",
+    "static/css/main.8313f5e1.chunk.css.map": "/fem-tip-calculator/static/css/main.8313f5e1.chunk.css.map",
+    "static/js/2.2761c267.chunk.js.LICENSE.txt": "/fem-tip-calculator/static/js/2.2761c267.chunk.js.LICENSE.txt",
+    "static/media/icon-dollar.9f9be353.svg": "/fem-tip-calculator/static/media/icon-dollar.9f9be353.svg",
+    "static/media/icon-person.65bfd204.svg": "/fem-tip-calculator/static/media/icon-person.65bfd204.svg",
+    "static/media/logo.3cc0528b.svg": "/fem-tip-calculator/static/media/logo.3cc0528b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7161056f.js",
+    "static/js/2.2761c267.chunk.js",
+    "static/css/main.8313f5e1.chunk.css",
+    "static/js/main.0d4a004c.chunk.js"
+  ]
+}
