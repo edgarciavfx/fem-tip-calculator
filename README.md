@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![Fullscreen image](screenshots\fullscreen-ss.png)
-![Mobile image](screenshots\mobile-ss.png)
+![Fullscreen image](https://github.com/edgarciavfx/fem-tip-calculator/blob/ea1d60e2b2913cd57da08c6635554e246f88fd8f/screenshots/fullscreen-ss.png)
+![Mobile image](https://github.com/edgarciavfx/fem-tip-calculator/blob/ea1d60e2b2913cd57da08c6635554e246f88fd8f/screenshots/mobile-ss.png)
 
 ### Links
 
@@ -41,7 +41,7 @@ Users should be able to:
 ### Built with
 
 - HTML5 markup
-- CSS 
+- CSS
 - Flexbox
 - [React](https://reactjs.org/) - JS library
 
