@@ -22,13 +22,7 @@ const TipCalculator = () => {
     setIsDisabled(false);
   };
 
-  const handleReset = () => {
-    refreshPage();
-  };
-
-  function refreshPage() {
-    window.location.reload();
-  }
+  const handleReset = () => window.location.reload();
 
   return (
     <div className="tip-calculator">
