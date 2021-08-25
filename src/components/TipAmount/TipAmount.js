@@ -1,4 +1,4 @@
-import '../styles/TipAmount.css';
+import './TipAmount.css';
 
 function TipAmount({ amount, handleInput }) {
   const handleClick = () => {

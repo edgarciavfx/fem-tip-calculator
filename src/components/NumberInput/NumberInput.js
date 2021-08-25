@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/NumberInput.css';
+import './NumberInput.css';
 
 export default function NumberInput({ name, icon, handleInput }) {
   const [number, setNumber] = useState();

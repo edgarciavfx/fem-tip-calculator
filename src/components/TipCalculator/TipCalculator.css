@@ -1,15 +1,15 @@
-.App {
+.tip-calculator {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.App-logo {
+.tip-calculator-logo {
   pointer-events: none;
   margin: 20px;
 }
-.App-card {
+.tip-calculator-card {
   background-color: hsl(0, 0%, 100%);
   padding: 20px 0px;
   border-radius: 25px;
@@ -19,14 +19,14 @@
   width: 850px;
   margin: auto;
 }
-.App-input {
+.tip-calculator-input {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
   /* background-color: rgb(158, 60, 60); */
 }
-.App-output {
+.tip-calculator-output {
   background-color: hsl(183, 100%, 15%);
   display: flex;
   flex-direction: column;
@@ -46,16 +46,16 @@
 }
 
 @media (max-width: 376px) {
-  .App {
+  .tip-calculator {
     position: relative;
     top: 25px;
   }
-  .App-card {
+  .tip-calculator-card {
     flex-direction: column;
     width: 100vw;
     height: 100%;
   }
-  .App-output {
+  .tip-calculator-output {
     width: 328px;
     height: 255px;
     justify-content: space-evenly;

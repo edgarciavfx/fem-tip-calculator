@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/ResetButton.css';
+import './ResetButton.css';
 
 function ResetButton({ isDisabled, handleReset }) {
   return (

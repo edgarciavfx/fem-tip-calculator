@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../styles/TipCustom.css';
+import './TipCustom.css';
 
 function TipCustom({ handleInput }) {
   const [customTip, setCustomTip] = useState();

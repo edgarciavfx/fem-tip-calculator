@@ -1,7 +1,7 @@
 import React from 'react';
-import TipAmount from './TipAmount';
-import TipCustom from './TipCustom';
-import '../styles/TipInput.css';
+import TipAmount from '../TipAmount/TipAmount';
+import TipCustom from '../TipCustom/TipCustom';
+import './TipInput.css';
 
 function TipInput({ handleInput }) {
   return (
