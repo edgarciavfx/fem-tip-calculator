@@ -1,4 +1,4 @@
-.TipAmount button {
+.tip-amount button {
   background-color: hsl(183, 100%, 15%);
   border-radius: 5px;
   border: none;
@@ -11,13 +11,13 @@
   height: 40px;
   margin: 5px 0;
 }
-.TipAmount button:hover {
+.tip-amount button:hover {
   background-color: hsl(173, 61%, 77%);
   color: hsl(183, 100%, 15%);
 }
 
-@media (max-width: 376px) {
-  .TipAmount button {
+@media (max-width: 481px) {
+  .tip-amount button {
     width: 140px;
     height: 45px;
   }

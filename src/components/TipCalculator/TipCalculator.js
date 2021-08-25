@@ -2,7 +2,7 @@ import { useState } from 'react';
 import NumberInput from '../NumberInput/NumberInput';
 import TipInput from '../TipInput/TipInput';
 import PerPerson from '../PerPerson/PerPerson';
-import ResetButton from '../ResetButton/ResetButton';
+import Button from '../Button/Button';
 import personIcon from '../../images/icon-person.svg';
 import dollarIcon from '../../images/icon-dollar.svg';
 import logo from '../../images/logo.svg';
@@ -13,6 +13,12 @@ const TipCalculator = () => {
   const [tip, setTip] = useState(0);
   const [people, setPeople] = useState(0);
   const [isDisabled, setIsDisabled] = useState(true);
+
+  const validateInput = (number) => {
+    return !isNaN(number) && people > 0
+      ? `${(number / people).toFixed(2)}`
+      : `${(0).toFixed(2)}`;
+  };
 
   const tipCalc = (bill * tip) / 100;
   const totalCalc = tipCalc + Number(bill);
@@ -42,9 +48,17 @@ const TipCalculator = () => {
           />
         </div>
         <div className="tip-calculator-output">
-          <PerPerson title="Tip Amount" tip={tipCalc} people={people} />
-          <PerPerson title="Total" tip={totalCalc} people={people} />
-          <ResetButton handleReset={handleReset} isDisabled={isDisabled} />
+          <PerPerson
+            title="Tip Amount"
+            tip={validateInput(tipCalc)}
+            people={people}
+          />
+          <PerPerson
+            title="Total"
+            tip={validateInput(totalCalc)}
+            people={people}
+          />
+          <Button onClick={handleReset} isDisabled={isDisabled} />
         </div>
       </div>
       <div className="attribution">

@@ -1,4 +1,4 @@
-.TipCustom button {
+.tip-custom button {
   background-color: hsl(189, 41%, 97%);
   border-radius: 5px;
   border: none;
@@ -10,13 +10,13 @@
   width: 100px;
   height: 40px;
 }
-.TipCustom button:hover {
+.tip-custom button:hover {
   background-color: hsl(173, 61%, 77%);
   color: hsl(183, 100%, 15%);
   margin: 5px 0;
 }
 
-.TipCustom input {
+.tip-custom input {
   width: 100px;
   height: 40px;
   font-family: inherit;
@@ -30,11 +30,11 @@
 
   padding: 0 15px;
 }
-.TipCustom input:hover {
+.tip-custom input:hover {
   border: solid hsl(172, 67%, 45%);
   outline: none;
 }
-.TipCustom input::placeholder {
+.tip-custom input::placeholder {
   color: hsl(184, 14%, 56%);
 }
 
@@ -47,9 +47,9 @@ input[type='number'] {
   -moz-appearance: textfield;
 }
 
-@media (max-width: 376px) {
-  .TipCustom button,
-  .TipCustom input {
+@media (max-width: 481px) {
+  .tip-custom button,
+  .tip-custom input {
     width: 140px;
     height: 45px;
   }

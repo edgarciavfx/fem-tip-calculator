@@ -1,4 +1,4 @@
-.ResetButton {
+.button {
   background-color: hsl(172, 67%, 45%);
   border-radius: 5px;
   border: none;
@@ -11,10 +11,10 @@
   height: 40px;
   margin: 5px 0;
 }
-.ResetButton:hover {
+.button:hover {
   background-color: hsl(173, 61%, 77%);
   color: hsl(183, 100%, 15%);
 }
-.ResetButton:disabled {
+.button:disabled {
   background-color: hsl(183, 79%, 24%);
 }

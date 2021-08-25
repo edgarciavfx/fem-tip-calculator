@@ -11,12 +11,13 @@
 }
 .tip-calculator-card {
   background-color: hsl(0, 0%, 100%);
-  padding: 20px 0px;
+  padding: 20px 25px;
   border-radius: 25px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 850px;
+  width: 850;
+  /* max-width: 850px; */
   margin: auto;
 }
 .tip-calculator-input {
@@ -45,7 +46,7 @@
   margin-top: 30px;
 }
 
-@media (max-width: 376px) {
+@media (max-width: 481px) {
   .tip-calculator {
     position: relative;
     top: 25px;

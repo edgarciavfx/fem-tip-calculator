@@ -1,4 +1,4 @@
-.PerPerson {
+.per-person {
   width: 300px;
   display: flex;
   flex-direction: row;
@@ -6,23 +6,23 @@
   justify-content: space-between;
   align-items: center;
 }
-.PerPerson-title-container {
+.per-person-title-container {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
-.PerPerson-title {
+.per-person-title {
   font-weight: 700;
   color: hsl(0, 0%, 100%);
   margin: 0;
 }
-.PerPerson-text {
+.per-person-text {
   color: hsl(185, 41%, 84%);
   font-size: 14px;
   font-weight: 700;
   margin: 0;
 }
-.PerPerson-output {
+.per-person-output {
   color: hsl(172, 67%, 45%);
   font-weight: 700;
   font-size: 36px;

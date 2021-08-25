@@ -1,9 +1,13 @@
-.NumberInput {
-  display: inline-block;
+.number-input {
+  display: flex;
   width: 350px;
   height: 100px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  padding-left: 15px;
 }
-.NumberInput h6 {
+.number-input h6 {
   font-size: 14px;
   margin: 5px;
   font-weight: 700;
@@ -12,31 +16,44 @@
   width: 350px;
   user-select: none;
   text-align: left;
-  padding-left: 15px;
 }
 
-.NumberInput img {
+.number-input-container {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  width: 325px;
+  border: solid hsl(189, 41%, 97%);
+  border-radius: 5px;
+  background-color: hsl(189, 41%, 97%);
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.number-input img {
   position: relative;
   left: 25px;
   user-select: none;
 }
 
-.NumberInput input {
+.number-input input {
   font-family: inherit;
   font-size: 24px;
   font-weight: 700;
   text-align: right;
-  border: solid hsl(189, 41%, 97%);
-  border-radius: 5px;
-  background-color: hsl(189, 41%, 97%);
   color: hsl(183, 100%, 15%);
+  background-color: hsla(0, 100%, 50%, 0);
+  border: none;
   padding: 0 15px;
-}
-.NumberInput input:hover {
-  border: solid hsl(172, 67%, 45%);
   outline: none;
 }
-.NumberInput input::placeholder {
+.number-input-container:hover {
+  border: solid hsl(172, 67%, 45%);
+}
+.number-input input::placeholder {
   color: hsl(184, 14%, 56%);
 }
 
